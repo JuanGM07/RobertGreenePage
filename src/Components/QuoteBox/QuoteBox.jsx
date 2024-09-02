@@ -28,7 +28,7 @@ const quotes = [
   { text: "People who conceal their desires for power behind the appearance of humility and selflessness tend to be the most politically aggressive and manipulative.", book: "The Laws of Human Nature" },
   { text: "Understand: people are not out to do you good; they are out to further their own interests. It is naïve to expect them to be otherwise.", book: "The Laws of Human Nature" },
   { text: "Understand: We don't attract what we want; we attract what we are.", book: "The Laws of Human Nature" },
-  { text: "  Generally, what causes us to go astray in the first place, what leads to bad decisions and miscalculations, is our deep-rooted irrationality, the extent to which our minds are governed by emotion.", book: "The Laws of Human Nature" },
+  { text: "Generally, what causes us to go astray in the first place, what leads to bad decisions and miscalculations, is our deep-rooted irrationality, the extent to which our minds are governed by emotion.", book: "The Laws of Human Nature" },
 
 
 
