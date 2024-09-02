@@ -1,0 +1,32 @@
+.BestQuotes {
+    text-align: center;
+    padding: 30px;
+}
+
+
+.book-quotes {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-cover {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.quotes {
+    text-align: left;
+}
+
+.quote {
+    margin: 10px 0;
+    font-style: italic;
+    color: bisque;
+}

@@ -1,0 +1,29 @@
+/* src/Components/BookItem/BookItem.css */
+.book-item {
+  text-align: center;
+  margin: 20px;
+  margin-top: 90px;
+}
+
+.book-image {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.book-image:hover {
+  transform: scale(1.05);
+}
+
+.book-item h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.book-item p {
+  font-size: 14px;
+  color: #fafafa;
+}

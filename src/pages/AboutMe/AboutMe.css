@@ -1,0 +1,81 @@
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.me-photo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.me-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 60px;
+    object-fit: cover;
+    margin-top: 90px;
+    border: solid;
+    border-color: #ffff;
+    border-width: 1px;
+    background-color: azure
+    ;
+}
+
+.bio-text {
+    flex: 2;
+    margin-left: 40px;
+    color: #faebd7;
+    margin-top: 90px;
+}
+
+.bio-text h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.bio-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media h3 {
+    margin-bottom: 10px;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-color: antiquewhite;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 18px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}

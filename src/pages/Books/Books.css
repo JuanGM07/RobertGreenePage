@@ -1,0 +1,40 @@
+/* src/pages/Books.css */
+
+.books {
+  padding: 20px;
+  max-width: 800px; /* Ajusta el ancho según tus necesidades */
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.book-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc; /* Línea separadora */
+}
+
+.book-item:last-child {
+  border-bottom: none; /* No mostrar la línea en el último elemento */
+}
+
+.book-image {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.book-item h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #faebd7;;
+}
+
+.book-item p {
+  font-size: 14px;
+  color: #faebd7;
+  padding: 20px;
+}

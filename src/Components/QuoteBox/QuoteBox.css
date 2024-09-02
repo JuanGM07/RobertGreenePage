@@ -1,0 +1,53 @@
+/* src/components/QuoteBox.css */
+.quote-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.6); /* Fondo blanco con 80% de opacidad */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .quote-box .quote {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    opacity: 1;
+    color: #34332d;
+  }
+  
+  .quote-box .book {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    opacity: 1;
+    color: #555; /* Color más claro para el texto del libro */
+  }
+  
+  .quote-box .fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+  }
+  
+  .quote-box .fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+  }
+  
+  .quote-box button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #a5a088;
+    background-color: #932308;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quote-box button:hover {
+    background-color: #af351b;
+  }
+  
