@@ -6,7 +6,7 @@ const AboutMe = () => {
         <div className="about-me">
             <div className="me-photo-container">
                 <img 
-                    src="JGM.png" 
+                    src="cover.png" 
                     alt="Robert Greene"
                     className="me-photo"
                 />
@@ -31,7 +31,7 @@ const AboutMe = () => {
                         </li>
                         <li>
                             <img src="tik-tok.png" alt="TikTok" className="social-icon"/>
-                            <a href="https://www.tiktok.com/@jgmdev" target="_blank" rel="noopener noreferrer">Tiktok</a>
+                            <a href="https://www.tiktok.com/@jgmdatascience" target="_blank" rel="noopener noreferrer">Tiktok</a>
                         </li>
                     </ul>
                 </div>
